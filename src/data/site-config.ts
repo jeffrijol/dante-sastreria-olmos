@@ -38,20 +38,24 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Satrería Olmos',
+    subtitle: 'Confección de ropa y reparación de máquinas de coser',
+    description: 'Satrería Olmos, Confección de ropa y reparación de máquinas de coser. Por Farit Olmos',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Inicio',
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Adultos',
+            href: '/projects'
+        },
+        {
+            text: 'Niños',
             href: '/projects'
         },
         {
